@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Sans-Serif;
+    
+}
+body {
+    /* CHANGE THE BACKGROUND COLOR TO WHEAT */
+    display: flex;
+    background-color: wheat;
+    /* border-left: red 200px;
+    border-right: red 200px; */
+}
+
+p,
+img {
+    margin-bottom: 20px;
+}
+h1{
+    color: white;
+}
+h2 {
+    font-family: serif;
+    font-style: italic;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: white;
+    padding-right: 1px;
+    padding-left: 1px;
+    border: 1px black;
+    /* CHANGE THE BACKGROUND COLOR TO WHITE
+    AND ADD A LIGHT GREY BORDER ON THE LEFT AND RIGHT */
+}
+
+#header {
+    padding: 20px;
+    color: white;
+    background-color: #79b5f1;
+    /* CHANGE THE TEXT COLOR TO WHITE AND
+    THE BACKGROUND COLOR SHOULD BE #79b5f1 */
+}
+
+#nav {
+    background-color: lightgrey;
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 900px; */
+    padding-right: 500px;
+    /* border-left: red 200px;
+    border-right: red 200px; */
+    /* SHOULD YOU CHANGE THE WIDTH? */
+    /* WHAT ABOUT PADDING? */
+    /* DISPLAY THIS CONTAINER'S CHILDREN SIDE BY SIDE */ */
+}
+
+#nav a {
+    /* ADD SPACE BETWEEN THE LINKS */
+    text-decoration: none;
+    
+
+}
+
+main {
+    padding: 20px;
+}
