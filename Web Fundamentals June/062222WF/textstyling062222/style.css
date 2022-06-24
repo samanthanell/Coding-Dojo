@@ -1,0 +1,28 @@
+* {
+font-family: serif
+}
+
+#Cloud {
+    color: #0AFEFF;
+}
+
+#MyCloud {
+    background-color: black;
+    color: #FFFFFF;
+    padding-left: 15px;
+}
+#Completed_Projects {
+    background-color: #663399;
+    color: #FFFFFF;
+    text-align: center;
+    font-style: italic;
+}
+#Contact_us {
+    background-color: rgb(160, 197, 248);
+    color: #1F134D;
+    text-align: right;
+    padding-right: 15px;
+    text-decoration: underline;
+}
+
+/* q's are identifying font? and space between mycloud and general corrections */

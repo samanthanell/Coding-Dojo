@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <h1>Geralt of Rivia</h1>
+    
+    <img src="/Week1/Day1/images/geralt.jpg" alt="">
+    
+    <div>
+        <a href="https://github.com/topics/geralt-of-rivia">My Github</a>
+        <a href="https://witcher.fandom.com/wiki/Geralt_of_Rivia">My LinkenIn</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">My Email</a>
+    </div>
+        
+    <div>
+        <table>
+            <h3> Technologies </h3>
+            <tr>
+                <th>FrontEnd</th>
+                <th>Python</th>
+                <th>JavaScript</th>
+                <th>Database</th>
+                <th>Concepts</th>
+            </tr>
+            <tr>
+                <td>HTML5</td>
+                <td>Django</td>
+                <td>Express</td>
+                <td>MySQL</td>
+                <td>AJAX</td>
+            </tr>
+            <tr>
+                <td>CSS 3</td>
+                <td>Flask</td>
+                <td>Mongoose</td>
+                <td>Mongo DB</td>
+                <td>OOP</td>
+            </tr>
+            <tr>
+                <td>BootStrap</td>
+                <td>UnitTest</td>
+                <td>React</td>
+                <td></td>
+                <td>Rest</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h3>Social Snakes</h3>
+        <img src="" alt="BrokenOnPurpose">
+        <p>Social Media App made in Python -  <a href="">code</a> | <a href=""> deployed</a> </p>
+    </div>
+
+    <div>
+        <h3>Contact Me</h3>
+        <form action="">
+            Name: <input type="text"><br>
+            Email: <input type="email"><br>
+            Message: <textarea type="comment" cols="20" rows="3"></textarea>
+            <br>
+            <input type="submit">
+
+        </form>
+    </div>
+
+    <div>
+
+        <h5>Look I added this.</h5>
+    </div>
+
+    </body>
+
+
+</html>
