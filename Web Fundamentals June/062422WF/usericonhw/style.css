@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+.userCard {
+    height: 250px;
+    width: 500px;
+    background-color: green;
+    position: absolute;
+    top: 110px;
+    left: 300px;
+
+}
+
+.userCardBanner {
+    height: 60px;
+    width: 500px;
+    background-color: #14A3B8;
+}
+
+.userCardContent {
+    height: 190px;
+    width: 496px;
+    background-color: white;
+    border: 2px solid rgb(211, 209, 209);
+
+}
+
+.userCardContent h2 {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 28px;
+    left: 15px;
+
+}
+
+.userCardContent p {
+    font-size: x-small;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 35px;
+    left: 15px;
+}
+
+.userCardContent a {
+    font-size: x-small;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 45px;
+    left: 40px;
+}
+#circle {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(211, 209, 209);
+    border-radius: 50%;
+    position: absolute;
+    top: 17px;
+    left: 13px;
+
+}
+#circle2 {
+    height: 77px;
+    width: 77px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 19px;
+    left: 14px;
+}
+#profPic {
+    height: 75px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    filter: invert(100%)
+    
+
+}
+
+.location {
+    height: 15px;
+    position: absolute;
+    top: 115px;
+    left: 20px;
+}
+
+#locP {
+    position: relative;
+    left: 40px;
+    top: 27px;
+}
+
+.gear {
+    height: 15px;
+    position: absolute;
+    top: 173px;
+    left: 20px;
+}

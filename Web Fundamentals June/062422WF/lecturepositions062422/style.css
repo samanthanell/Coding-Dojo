@@ -1,0 +1,76 @@
+.container {
+
+    height: 1400px;
+    width: 400px;
+    background-color: orange;
+    /* display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column; */
+}
+
+
+/* "absolute" relative to dom
+"relative" to the parent
+"fixed" will not move from location
+"sticky" will move and then stick/stop when scrolling
+"static is the default, no properties" */
+
+
+.banner {
+    height: 25px;
+    width: 400px;
+    background-image: linear-gradient(black, pink, white);
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+
+
+
+}
+
+.footer {
+    height: 25px;
+    width: 400px;
+    background-image: linear-gradient(black, pink, white);
+    position: sticky;
+    top: 500px;
+
+
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    /* bottom: -25px; */
+    z-index: 1;
+    /* opacity: 0.5; */
+
+
+}
+
+
+
+.box2 {
+    height: 75px;
+    width: 75px;
+    background-color: rgb(233, 246, 233);
+    position: absolute;
+    top: 62px;
+    opacity: 0.5;
+
+}
+
+
+.box3 {
+    height: 45px;
+    width: 45px;
+    background-color: green;
+    position: absolute;
+    top: 75px;
+    z-index: 3;
+}

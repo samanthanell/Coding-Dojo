@@ -1,0 +1,30 @@
+.container {
+    display: block;
+}
+.search {
+    background-color: #F5F5F5;
+    color: #6EBCBD;
+    border: solid #6EBCBD 2px;
+    font-size: large;
+    border-radius: 25px; 
+    height: 40px;
+    width: 150px;
+    font-weight: 600;
+    
+}
+.plus {
+    background-color: #00D1B2;
+    border-radius: 50%;
+    font-size: 200%;
+    color: white;
+    border: solid white 1px;
+    width: 60px;
+    height: 60px;
+}
+.createaccount {
+    background-color: #2A78E4;
+    color: #E8EFFC;
+    border: solid black 2px;
+    font-size: 100%;
+    box-shadow: 2px 2px black;
+}

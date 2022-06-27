@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: #CACACA;
+    margin: 20px;
+}
+.btn {
+    background-color: #14A3B8;
+    color: white;
+    box-shadow: black 2px 2px;
+}
+.active {
+    color: #FFFFFF;
+}

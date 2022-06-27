@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navLeft {
+    height: 70px;
+    width: 300px;
+    background-color: black;
+    color: rgb(182, 182, 182);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    left: 160px;
+    font-size: large;
+}
+.navLeft h4{
+    right: 75px;
+    position: relative;
+    color: white;
+}
+.navLeft span {
+    color: white;
+}
+
+.navRight {
+    height: 70px;
+    width: 280px;
+    background-color: black;
+    
+}
+
+.navRight button {
+    position: relative;
+    top: 25px;
+    left: 700px;
+    background-color: #14A3B8;
+    color: white;
+    box-shadow: black 2px 2px;
+    padding: 5px;
+}
+
+
+
+.mainContent {
+    height: 455px;
+    background-color: white;
+}
+
+.userCard {
+    height: 210px;
+    width: 235px;
+    background-color: green;
+    position: absolute;
+    top: 110px;
+    left: 115px;
+
+}
+
+.userCardBanner {
+    height: 60px;
+    width: 239px;
+    background-color: #14A3B8;
+}
+
+.userCardContent {
+    height: 150px;
+    width: 235px;
+    background-color: white;
+    border: 2px solid #333333;
+
+}
+
+.userCardContent h2 {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 25px;
+    left: 15px;
+
+}
+
+.userCardContent p {
+    font-size: x-small;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+
+.userCardContent a {
+    font-size: x-small;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 45px;
+    left: 40px;
+}
+#circle {
+    height: 78px;
+    width: 78px;
+    background-color: rgb(211, 209, 209);
+    border-radius: 50%; 
+    position: absolute;
+    top: 17px;
+    left: 13px; 
+}
+#circle2 {
+    height: 74px;
+    width: 74px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 19px;
+    left: 15px;
+}
+
+#profPic {
+    height: 70px;
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    filter: invert(100%)
+}
+
+.location {
+    height: 15px;
+    position: absolute;
+    top: 115px;
+    left: 20px;
+}
+
+#locP {
+    position: relative;
+    left: 40px;
+    top: 27px;
+}
+
+.gear {
+    height: 15px;
+    position: absolute;
+    top: 173px;
+    left: 20px;
+}
+
+.requestBox {
+    height: 95px;
+    width: 170px;
+    background-color: green;
+    position: relative;
+    top: 40px;
+    left: 390px;
+}
+
+.reqBoxBanner {
+    height: 35px;
+    width: 174px;
+    background-color: #333333;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.reqBoxBanner label {
+    width: 25px;
+    height: 25px;
+    border: black solid 2px;
+    background-color: #CCCCCC;
+    color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.requestBoxContent {
+    height: 60px;
+    width: 170px;
+    background-color: white;
+    border: 2px solid rgb(211, 209, 209);
+    font-family: 'Roboto', sans-serif;
+    /* display: flex; */
+    justify-content: space-around;
+}
+.p1 {
+    display: flex;
+    justify-content: space-around;
+}
+.pn {
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ac {
+    position: relative;
+    top: 10px;
+}
+.p2 {
+    display: flex;
+    justify-content: space-around;
+}
+.kn {
+    position: relative;
+    top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kc {
+    position: relative;
+    top: 15px;
+}
+.requestBoxContent img {
+    height: 20px;
+    width: 20px;
+    filter: invert(100%);
+    
+}
+.educationBox {
+    height: 160px;
+    width: 235px;
+    background-color: green;
+    position: absolute;
+    top: 360px;
+    left: 115px;
+}
+
+.educBoxBanner {
+    height: 40px;
+    width: 217px;
+    background-color: #333333;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: smaller;
+    padding-left: 20px;
+}
+.educBoxContent {
+    height: 120px;
+    width: 218px;
+    background-color: white;
+    border: 2px solid rgb(211, 209, 209);
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    padding-left: 15px;
+    padding-top: 10px;
+    /* align-items: space-between;
+    justify-content: center;
+    display: flex; */
+}
+.educBoxContent p {
+    color: rgb(211, 209, 209);
+}
+.connectionsBox {
+    height: 185px;
+    width: 170px;
+    background-color: green;
+    position: relative;
+    top: 70px;
+    left: 390px;
+}
+
+.connectBoxBanner {
+    height: 35px;
+    width: 174px;
+    background-color: #333333;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connectBoxBanner label {
+    width: 50px;
+    height: 28px;
+    border: black solid 2px;
+    background-color: #CCCCCC;
+    color: black;
+    border-radius: 50%;
+    position: relative;
+    left: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.connectBoxContent {
+    height: 115px;
+    width: 170px;
+    background-color: white;
+    border: 2px solid rgb(211, 209, 209);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.connectBoxContent img {
+    height: 25px;
+    position: absolute;
+    filter: invert(100%);
+}
+.connectBoxContent p {
+    position: relative;
+    left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+#image1 {
+    top: 40px;
+    left: 10px;
+}
+#image2 {
+    top: 68px;
+    left: 10px;
+}
+#image3 {
+    top: 96px;
+    left: 10px;
+}
+#image4 {
+    top: 124px;
+    left: 10px;
+}
+.connectBoxLink {
+    height: 35px;
+    width: 170px;
+    background-color: white;
+    border: 2px solid rgb(211, 209, 209);
+    border-top: none;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.connectBoxLink a {
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
